@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "6AeovD5yDiMM9Mqadjx3dp1PpP7fO4mvrTe3qd0ZbG0=",
+  "Source": "BjuApiServer",
+  "BasePath": "_content/BjuApiServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
