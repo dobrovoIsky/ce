@@ -1,0 +1,22 @@
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:cursiv"
+       x:Class="cursiv.AppShell">
+
+    <FlyoutItem Title="Головна" Icon="home.png">
+        <ShellContent ContentTemplate="{DataTemplate local:HomePage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Розрахунок БЖУ" Icon="calculator.png">
+        <ShellContent ContentTemplate="{DataTemplate local:CalculationPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Вхід" Icon="login.png">
+        <ShellContent ContentTemplate="{DataTemplate local:LoginPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Реєстрація" Icon="register.png">
+        <ShellContent ContentTemplate="{DataTemplate local:RegisterPage}" />
+    </FlyoutItem>
+
+</Shell>
